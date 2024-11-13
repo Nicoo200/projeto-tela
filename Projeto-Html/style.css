@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat", Arial;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+  }
+  
+  .logo img {
+    width: 60px; /* Tamanho mais visível */
+    height: auto;
+  }
+  
+  .titulo {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .titulo h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .titulo p {
+    font-size: 14px;
+    margin-left: 30px;
+    color: #666;
+
+  }
+
+  .caixadetexto{
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .caixadetexto{
+    margin-top: 70px;
+    margin-left: 15px;
+    
+  }
+
+  .titulo-categoria{
+    margin-top:  200px;;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  
+
+  .imagem-category img{
+    margin-top: 15px;
+    margin-left: 70px;
+  }
+  
+  .titulo-bk{
+    margin-top: 200px;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: fit-content;
+    color: #323232;
+  }
+
+  .social-icons {
+    margin-right: 450px;
+    gap: 50px;
+    text-align: left;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .social-icons img {
+    width: 15px; /* Tamanho mais visível para os ícones */
+    height: auto;
+    margin-right: 15px;  
+  }
+
+  .caixadetexto span{
+    color: #00ced1;
+    text-decoration: underline;
+  }
+  .imagemdireita{
+    display: flex;
+    justify-content: flex-end;  
+    position: absolute;
+    top: 10px; /* Ajuste este valor para definir a distância da borda superior */
+    right: 20px; /* Ajuste este valor para definir a distância da borda direita */
+    z-index: 1; /* Garante que a imagem fique por cima dos outros elementos */
+   }
+   .restaurant{
+    margin-left: 10px;
+    width: fit-content;
+
+   }
+
+
+
+
